@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import Card from './Card.js';
-import data from './dataProduits.js';
-import Cart from './Carte.js';
+import Card from './card.js';
+import data from './data_produits.js';
+import Cart from './carte.js';
 import './Articles.scss';
 
-
-
 class Articles extends Component {
-    state = {
+	state = {
 		cartData: [],
 	};
 	sendToArray = product => {
