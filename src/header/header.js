@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import './header.css';
-
-
+import './header.scss';
 
 class Header extends Component {
-    render() {
-        return (
-            <div>
-                	<nav className="nav-extended">
+	render() {
+		return (
+			<div>
+				<nav className="nav-extended">
 					<div className="nav-wrapper">
 						<p href="#!" className="brand-logo">
 							Logo
@@ -20,9 +18,9 @@ class Header extends Component {
 						</a>
 					</div>
 				</nav>
-            </div>
-        );
-    }
+			</div>
+		);
+	}
 }
 
 export default Header;
