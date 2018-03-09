@@ -5,11 +5,11 @@ class Cart extends Component {
 		const { img, name, total, nb, initDelete } = this.props;
 		return (
 			<li className="collection-item avatar">
-				<img src={img} alt="" className="Circle" />
+				<img src={img} alt="" className="circle" />
 				<span className="title">{name}</span>
 				<p>
 					<b>Prix: </b>
-					{total} euros<br />
+					{total} <br />
 					<b>Nombre de produits: </b>
 					{nb}
 				</p>
