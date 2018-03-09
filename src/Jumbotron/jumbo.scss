@@ -1,13 +1,28 @@
 $Mina: Mina, sans-serif;
-$white-color: rgb(255, 255, 255);
+$white-color: white;
+
+
 
 .TitreJumbotron {
 	font: 5em $Mina;
 	color: $white-color;
 	padding-top: 10.5%;
 	margin: 0%;
+	
 }
 .SousTitreJumbotron {
 	font: 3em $Mina;
-	color: $white-color;
+	color:black ;
+}
+.styleImag{
+	height: 500px;
+}
+.JumbotronResto{
+	height: 500px;
+	background-size: cover;
+	background-position: 2% 75%;
+	background-color: rgb(128, 118, 118);
+	background-blend-mode: multiply;
+	width: auto;
+	opacity: 0.7;
 }
