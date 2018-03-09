@@ -4,7 +4,7 @@ class Card extends Component {
 	render() {
 		const { name, price, devise, description, img, onClick } = this.props;
 		return (
-			<div id="ContainerCard" className="col s2">
+			<div id="ContainerCard" className="col s3">
 				<div className="card">
 					<div className="card-image">
 

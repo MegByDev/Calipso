@@ -27,7 +27,7 @@ const data = [
         name: 'Dessert',
 		price: 25,
 		devise:'euros',
-        description: 'Lorem ipsum lorem ipsum',
+        description: 'Tartar tutifruiti',
         img: 'https://media-cdn.tripadvisor.com/media/photo-s/0c/49/18/d7/plat-restaurant-le-360.jpg',
         nb: 1,
 	},
