@@ -1,0 +1,13 @@
+$Mina: Mina, sans-serif;
+$white-color: rgb(255, 255, 255);
+
+.TitreJumbotron {
+	font: 5em $Mina;
+	color: $white-color;
+	padding-top: 10.5%;
+	margin: 0%;
+}
+.SousTitreJumbotron {
+	font: 3em $Mina;
+	color: $white-color;
+}
