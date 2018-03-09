@@ -1,14 +1,14 @@
 $break-small:360px;
 $break-large:700px;
 
-.row{
-@media only screen and (min-width:$break-small){
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+@media only screen and (max-width:$break-small){
+  .row .col .s2{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
   }
-  @media only screen and (max-width:$break-large){
-  } 
 }
 
 .material-icons{
@@ -21,5 +21,10 @@ $break-large:700px;
   font-family: fantasy;
   color: black;
 }
-
+.row .col.s3 {
+  width: 25%;
+  /* margin-left: auto; */
+  /* left: auto; */
+  /* right: auto; */
+}
   
