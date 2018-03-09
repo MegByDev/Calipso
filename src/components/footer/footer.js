@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './footer.scss';
+import redux from 'redux';
 
 
 
