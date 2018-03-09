@@ -1,5 +1,5 @@
 $Mina: Mina, sans-serif;
-$white-color: rgb(0, 0, 0);
+$white-color: rgb(182, 115, 15);
 
 
 
@@ -12,7 +12,7 @@ $white-color: rgb(0, 0, 0);
 }
 .SousTitreJumbotron {
 	font: 3em $Mina;
-	color:black ;
+	color:$white-color;
 }
 .styleImag{
 	height: 500px;
