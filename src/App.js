@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from './header/header.js';
-import Jumbo from './Jumbotron/jumbo.js';
-import Card from './Produits/Articles.js';
-import Footer from './footer/footer.js';
-import Map_api from './Map/Api_map.js';
+import Header from './components/header/header.js';
+import Jumbo from './components/Jumbotron/jumbo.js';
+import Card from './components/Produits/Articles.js';
+import Footer from './components/footer/footer.js';
+import Map_api from './components/Map/Api_map.js';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
 	render() {

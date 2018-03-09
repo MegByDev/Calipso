@@ -55,6 +55,7 @@ class Articles extends Component {
 								key={i}
 								name={el.name}
 								price={el.price}
+								devise={el.devise}
 								description={el.description}
 								img={el.img}
 								alt={el.name}

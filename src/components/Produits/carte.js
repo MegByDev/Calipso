@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
+import './Articles.scss';
+
+
+
+
 
 class Cart extends Component {
 	render() {
-		const { img, name, total, nb, initDelete } = this.props;
+		const { img, devise, name, total, nb, initDelete } = this.props;
 		return (
-			<li className="collection-item avatar">
+			<ul className="collection-item avatar">
+			<li>
 				<img src={img} alt="" className="circle" />
-				<span className="title">{name}</span>
+				<span className="Title">{name}</span>
 				<p>
-					<b>Prix: </b>
-					{total} <br />
+					<b>Prix:  </b>
+					{total} <br />{devise}
 					<b>Nombre de produits: </b>
 					{nb}
 				</p>
@@ -19,6 +25,7 @@ class Cart extends Component {
 					</button>
 				</a>
 			</li>
+			</ul>
 		);
 	}
 }

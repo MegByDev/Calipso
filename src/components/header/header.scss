@@ -1,0 +1,11 @@
+$gold:rgba(245, 224, 35, 0.767);
+
+
+.nav-wrapper {
+	display: flex;
+	justify-content: flex-start;
+}
+.logo{
+	font-family: sweet_hipster,'Calibri', 'Trebuchet MS';
+	color: $gold;
+}

@@ -8,16 +8,16 @@ import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
 class Map_api extends Component {
     state = {
-		zoom: '12',
-		lat:'21',
-		lng:'34',
+		zoom: '3',
+		lat:'16',
+		lng:'62',
 	};
     render() {
     	const position = [this.state.lat , this.state.lng]
         return (
             <div>
              	<Map center={position} zoom={this.state.zoom}>
-					<TileLayer attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+					<TileLayer attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 					<Marker position={position}>
 						<Popup>
 							<span>
@@ -31,4 +31,5 @@ class Map_api extends Component {
     }
 }
 
+ 
 export default Map_api;
